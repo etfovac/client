@@ -11,7 +11,8 @@
 
 ## Snippets
 
-#### Test Read - LabVIEW Classes, LVOOP  <img src="https://github.com/etfovac/client/blob/master/graphics/Test%20Read.png" alt="Test Read - LabVIEW Classes, LVOOP" width="370" height="145">
+#### Test Read - LabVIEW Classes, LVOOP 
+<img src="https://github.com/etfovac/client/blob/master/graphics/Test%20Read.png" alt="Test Read - LabVIEW Classes, LVOOP" width="370" height="140">
 
 #### Test Read - Interop Assembly (.NET DLL), LVOOP 
 ![Test Read - .NET DLL, LVOOP](https://github.com/etfovac/client/blob/master/graphics/Test%20Read%20(Reused%20IA).png)
