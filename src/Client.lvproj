@@ -11,16 +11,19 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="Test Read DLL.vi" Type="VI" URL="../../tests/Test Read DLL.vi"/>
+			<Item Name="Test Read InteropAssembly.vi" Type="VI" URL="../../tests/Test Read InteropAssembly.vi"/>
 			<Item Name="Test Read.vi" Type="VI" URL="../../tests/Test Read.vi"/>
 		</Item>
 		<Item Name="ClientApp1Lib.lvlib" Type="Library" URL="../ClientApp1/ClientApp1Lib.lvlib"/>
 		<Item Name="ClientBaseLib.lvlib" Type="Library" URL="../ClientBase/ClientBaseLib.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="ClientApp1.dll" Type="Document" URL="../../builds/ClientApp1/ClientApp1.dll"/>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="ClientApp1" Type=".NET Interop Assembly">
+			<Item Name="ClientApp1 Interop Assembly" Type=".NET Interop Assembly">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{B4AF2D4D-5733-494B-8E9F-BDEE77C94C6F}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{A12A1B5F-916A-4474-9562-12FEF32C95AF}</Property>
@@ -28,7 +31,7 @@
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.RadioSoft.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{9E4F1DE3-0391-45DC-AEA9-CCDB4BECBFDE}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">ClientApp1</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">ClientApp1 Interop Assembly</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -51,7 +54,7 @@
 				<Property Name="DotNETAssembly_signAssembly" Type="Bool">false</Property>
 				<Property Name="DotNETAssembly_StrongNameKeyFileItemID" Type="Ref"></Property>
 				<Property Name="DotNETAssembly_StrongNameKeyGUID" Type="Str">{A1A0E62F-0FE1-4B06-8A38-9768A123F5E0}</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0200A885-F3A6-4678-9512-1F6ACA90CD09}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FBFE4FC5-94C2-40E6-AAB7-810462EC04B0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ClientApp1Lib.lvlib/ClientApp1.lvclass/Create.vi</Property>
@@ -61,6 +64,14 @@
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/ClientBaseLib.lvlib/ClientBase.lvclass/Connection/GetConnection.vi</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/ClientBaseLib.lvlib/ClientBase.lvclass</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].type" Type="Str">Library</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/ClientApp1Lib.lvlib/ClientApp1.lvclass</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ClientApp1Lib.lvlib/ClientApp1.lvclass/ReadMore.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
@@ -93,12 +104,12 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/ClientBaseLib.lvlib/ClientBase.lvclass/Config/SetConfig.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[9].type" Type="Str">ExportedAssemblyVI</Property>
-				<Property Name="SourceCount" Type="Int">11</Property>
+				<Property Name="SourceCount" Type="Int">13</Property>
 				<Property Name="TgtF_companyName" Type="Str">Hiking</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">ClientApp1 is an InteropAssembly built in LabVIEW.</Property>
-				<Property Name="TgtF_internalName" Type="Str">ClientApp1</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">ClientApp1 Interop Assembly is an InteropAssembly built in LabVIEW.</Property>
+				<Property Name="TgtF_internalName" Type="Str">ClientApp1 Interop Assembly</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Nikola Jovanovic</Property>
-				<Property Name="TgtF_productName" Type="Str">ClientApp1</Property>
+				<Property Name="TgtF_productName" Type="Str">ClientApp1 Interop Assembly</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{4A46E00D-60C5-4C48-9480-31221A9FF648}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">ClientApp1.dll</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
