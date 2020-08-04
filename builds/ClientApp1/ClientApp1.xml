@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>ClientApp1</name>
+  </assembly>
+  <members>
+    <member name="M:ClientApp1.ClientBaseLib.ClientBase.Connect(System.Int32,ClientApp1.ClientBaseLib+ClientBase,ClientApp1.ClientBaseLib+ClientBase@)">
+      <summary></summary>
+      <returns>Void</returns>
+    </member>
+    <member name="M:ClientApp1.ClientBaseLib.ClientBase.Read(System.Int32,System.Int32,ClientApp1.ClientBaseLib+ClientBase,System.String@,ClientApp1.ClientBaseLib+ClientBase@)">
+      <summary></summary>
+      <returns>Void</returns>
+    </member>
+    <member name="M:ClientApp1.ClientBaseLib.ClientBase.Disconnect(ClientApp1.ClientBaseLib+ClientBase,ClientApp1.ClientBaseLib+ClientBase@)">
+      <summary></summary>
+      <returns>Void</returns>
+    </member>
+    <member name="M:ClientApp1.ClientBaseLib.ClientBase.Destroy(ClientApp1.ClientBaseLib+ClientBase)">
+      <summary></summary>
+      <returns>Void</returns>
+    </member>
+    <member name="M:ClientApp1.ClientBaseLib.ClientBase.GetConfig(ClientApp1.ClientBaseLib+ClientBase,ClientApp1.ClientBaseLib+ClientBase@,System.UInt16@,System.String@,System.String@)">
+      <summary></summary>
+      <returns>Void</returns>
+    </member>
+    <member name="M:ClientApp1.ClientBaseLib.ClientBase.SetConfig(System.UInt16,System.String,ClientApp1.ClientBaseLib+ClientBase,System.String,ClientApp1.ClientBaseLib+ClientBase@)">
+      <summary></summary>
+      <returns>Void</returns>
+    </member>
+    <member name="M:ClientApp1.ClientApp1Lib.ClientApp1.Create(ClientApp1.ClientApp1Lib+ClientApp1,ClientApp1.ClientApp1Lib+ClientApp1@)">
+      <summary></summary>
+      <returns>Void</returns>
+    </member>
+    <member name="M:ClientApp1.ClientApp1Lib.ClientApp1.ReadMore(ClientApp1.ClientApp1Lib+ClientApp1,System.String@,ClientApp1.ClientApp1Lib+ClientApp1@)">
+      <summary></summary>
+      <returns>Void</returns>
+    </member>
+  </members>
+</doc>
