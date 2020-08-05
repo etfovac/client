@@ -36,5 +36,9 @@
       <summary></summary>
       <returns>Void</returns>
     </member>
+    <member name="M:ClientApp1.ClientApp1Lib.ClientApp1.GetRef(ClientApp1.ClientApp1Lib+ClientApp1@)">
+      <summary></summary>
+      <returns>Void</returns>
+    </member>
   </members>
 </doc>

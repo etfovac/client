@@ -11,6 +11,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Tests" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Test Read InteropAssembly Ref.vi" Type="VI" URL="../../tests/Test Read InteropAssembly Ref.vi"/>
+			<Item Name="Test Read Ref.vi" Type="VI" URL="../../tests/Test Read Ref.vi"/>
 			<Item Name="Test Read InteropAssembly.vi" Type="VI" URL="../../tests/Test Read InteropAssembly.vi"/>
 			<Item Name="Test Read.vi" Type="VI" URL="../../tests/Test Read.vi"/>
 		</Item>
@@ -54,7 +57,7 @@
 				<Property Name="DotNETAssembly_signAssembly" Type="Bool">false</Property>
 				<Property Name="DotNETAssembly_StrongNameKeyFileItemID" Type="Ref"></Property>
 				<Property Name="DotNETAssembly_StrongNameKeyGUID" Type="Str">{A1A0E62F-0FE1-4B06-8A38-9768A123F5E0}</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FBFE4FC5-94C2-40E6-AAB7-810462EC04B0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7E864692-8FE2-447D-BDD5-CF96422CA924}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/ClientApp1Lib.lvlib/ClientApp1.lvclass/Create.vi</Property>
@@ -72,6 +75,48 @@
 				<Property Name="Source[12].itemID" Type="Ref">/My Computer/ClientApp1Lib.lvlib/ClientApp1.lvclass</Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].type" Type="Str">Library</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[0]VIProtoConNum" Type="Int">-1</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[0]VIProtoDataType" Type="Str">void</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[0]VIProtoIutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[0]VIProtoName" Type="Str">returnvalue</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[0]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[1]VIProtoConNum" Type="Int">3</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[1]VIProtoDataType" Type="Str">LabVIEW Class Instance</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[1]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[1]VIProtoIutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[1]VIProtoName" Type="Str">ClientApp1__32out</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">3</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[2]VIProtoConNum" Type="Int">8</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[2]VIProtoDataType" Type="Str">Cluster</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[2]VIProtoDir" Type="Int">6</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[2]VIProtoIutputIdx" Type="Int">8</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[2]VIProtoName" Type="Str">error__32in__32__40no__32error__41</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[2]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[3]MethodName" Type="Str">GetRef</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[3]VIName" Type="Str">GetRef.vi</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[3]VIProtoConNum" Type="Int">0</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[3]VIProtoDataType" Type="Str">Cluster</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[3]VIProtoDir" Type="Int">7</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[3]VIProtoIutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[3]VIProtoName" Type="Str">error__32out</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfo[3]VIProtoOutputIdx" Type="Int">0</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfoVIDocumentation" Type="Str"></Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfoVIDocumentationEnabled" Type="Int">0</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfoVIIsNamesSanitized" Type="Int">1</Property>
+				<Property Name="Source[13].ExportedAssemblyVI.VIProtoInfoVIProtoItemCount" Type="Int">4</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/ClientApp1Lib.lvlib/ClientApp1.lvclass/GetRef.vi</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[13].type" Type="Str">ExportedAssemblyVI</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/ClientApp1Lib.lvlib</Property>
+				<Property Name="Source[14].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[14].type" Type="Str">Library</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/ClientBaseLib.lvlib</Property>
+				<Property Name="Source[15].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[15].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ClientApp1Lib.lvlib/ClientApp1.lvclass/ReadMore.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
@@ -104,7 +149,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/ClientBaseLib.lvlib/ClientBase.lvclass/Config/SetConfig.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[9].type" Type="Str">ExportedAssemblyVI</Property>
-				<Property Name="SourceCount" Type="Int">13</Property>
+				<Property Name="SourceCount" Type="Int">16</Property>
 				<Property Name="TgtF_companyName" Type="Str">Hiking</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">ClientApp1 Interop Assembly is an InteropAssembly built in LabVIEW.</Property>
 				<Property Name="TgtF_internalName" Type="Str">ClientApp1 Interop Assembly</Property>
