@@ -4,7 +4,7 @@
 
 <a href="https://www.youracclaim.com/badges/3ee8a24f-0360-42d5-96c1-79f6296d7fe0/public_url"><img src="https://images.youracclaim.com/size/220x220/images/84f9f6c4-167a-47bf-95bf-af1b4610fd67/36015_Certificate_Badges_FINAL__1__NI_Instructor_v5_copy_2.png" height="60" width="60"></a>
 
-<a href="https://forums.ni.com/t5/Example-Code/Reusing-NET-Interop-Assembly-with-LVOOP-in-LabVIEW/ta-p/4072423">Reusing .NET Interop Assembly with LVOOP in LabVIEW - Example Code in NI's Community</a>
+Published as Example to NI Forums and described in more detail at <a href="https://forums.ni.com/t5/Example-Code/Reusing-NET-Interop-Assembly-with-LVOOP-in-LabVIEW/ta-p/4072423">Reusing .NET Interop Assembly with LVOOP in LabVIEW - Example Code in NI's Community</a>.
 
 ## Project Overview
 <img src="https://github.com/etfovac/client/blob/master/graphics/Project%20Overview.png" alt="Project Overview" width="225" height="400">
