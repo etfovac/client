@@ -1,5 +1,5 @@
 ## Reusing .NET Interop Assembly (DLL) with LVOOP in LabVIEW  
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/etfovac/client/blob/master/LICENSE) [![DOI](https://zenodo.org/badge/284903932.svg)](https://zenodo.org/badge/latestdoi/284903932) [![GitHub (pre-)release](https://img.shields.io/badge/release-0.1-yellow.svg)](https://github.com/etfovac/client/releases/tag/0.1)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/etfovac/client/blob/master/LICENSE) [![DOI](https://zenodo.org/badge/284903932.svg)](https://zenodo.org/badge/latestdoi/284903932) <!--[![GitHub (pre-)release](https://img.shields.io/badge/release-0.1-yellow.svg)](https://github.com/etfovac/client/releases/tag/0.1)-->
 
 ### Keywords 
  > LabVIEW, LabVIEW Classes, LVOOP, OOP  
