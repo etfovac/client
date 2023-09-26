@@ -5,4 +5,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="ClientApp1.lvclass" Type="LVClass" URL="../ClientApp1/ClientApp1.lvclass"/>
+	<Item Name="GetRef.vi" Type="VI" URL="../ClientApp1/GetRef.vi"/>
 </Library>
